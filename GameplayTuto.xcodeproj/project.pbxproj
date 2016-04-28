@@ -20,7 +20,6 @@
 		428F7BDE15CB131A009ED24C /* game.config in Resources */ = {isa = PBXBuildFile; fileRef = 428F7BDD15CB131A009ED24C /* game.config */; };
 		42C932C11491A0DB0098216A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C932C01491A0DB0098216A /* Cocoa.framework */; };
 		42C932EE1491A4CB0098216A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C932ED1491A4CB0098216A /* icon.png */; };
-		42C932F11491A5160098216A /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42C932EF1491A5160098216A /* Main.cpp */; };
 		42C932F31491A53E0098216A /* res in Resources */ = {isa = PBXBuildFile; fileRef = 42C932F21491A53E0098216A /* res */; };
 		42C933171491A5EB0098216A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C933161491A5EB0098216A /* OpenGL.framework */; };
 		42C9331D1491A6750098216A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C9331C1491A6750098216A /* QuartzCore.framework */; };
@@ -29,9 +28,12 @@
 		435FC4281A539A9C003D4E9C /* libgameplay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 435FC4271A539A9C003D4E9C /* libgameplay.a */; };
 		435FC42A1A539B31003D4E9C /* libgameplay-deps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 435FC4291A539B31003D4E9C /* libgameplay-deps.a */; };
 		435FC42C1A539B4E003D4E9C /* libgameplay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 435FC42B1A539B4E003D4E9C /* libgameplay.a */; };
-		5B61611614CCC24C0073B857 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42C932EF1491A5160098216A /* Main.cpp */; };
 		5B61612614CCC24C0073B857 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C932ED1491A4CB0098216A /* icon.png */; };
 		5B61612714CCC24C0073B857 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 42C932F21491A53E0098216A /* res */; };
+		CF2C88471CD25FB50008F927 /* Source in Resources */ = {isa = PBXBuildFile; fileRef = CF2C88461CD25FB50008F927 /* Source */; };
+		CF2C88481CD25FB50008F927 /* Source in Resources */ = {isa = PBXBuildFile; fileRef = CF2C88461CD25FB50008F927 /* Source */; };
+		CF2C88531CD269F90008F927 /* HelloTriangleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF2C88521CD269F90008F927 /* HelloTriangleScene.cpp */; };
+		CF2C88541CD269F90008F927 /* HelloTriangleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF2C88521CD269F90008F927 /* HelloTriangleScene.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +75,6 @@
 		42C932BC1491A0DB0098216A /* GameplayTuto-macosx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameplayTuto-macosx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C932C01491A0DB0098216A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		42C932ED1491A4CB0098216A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		42C932EF1491A5160098216A /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = src/Main.cpp; sourceTree = SOURCE_ROOT; };
-		42C932F01491A5160098216A /* Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Main.h; path = src/Main.h; sourceTree = SOURCE_ROOT; };
 		42C932F21491A53E0098216A /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		42C933161491A5EB0098216A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		42C9331C1491A6750098216A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -88,6 +88,9 @@
 		5B61612E14CCC24D0073B857 /* GameplayTuto-ios.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameplayTuto-ios.plist"; sourceTree = "<group>"; };
 		5BC4E77F150F879E00CBE1C0 /* gameplay.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = gameplay.xcodeproj; path = ../../GamePlay/gameplay/gameplay.xcodeproj; sourceTree = SOURCE_ROOT; };
 		5BC4E849150F911D00CBE1C0 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = text; name = shaders; path = ../../GamePlay/gameplay/res/shaders; sourceTree = SOURCE_ROOT; };
+		CF2C88461CD25FB50008F927 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
+		CF2C88521CD269F90008F927 /* HelloTriangleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloTriangleScene.cpp; path = "../Source/20 Hello Triangle Scene/HelloTriangleScene.cpp"; sourceTree = "<group>"; };
+		CF2C88551CD26B330008F927 /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tools; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +136,10 @@
 				5B61612E14CCC24D0073B857 /* GameplayTuto-ios.plist */,
 				42C932ED1491A4CB0098216A /* icon.png */,
 				428F7BDD15CB131A009ED24C /* game.config */,
-				42C932F21491A53E0098216A /* res */,
 				42C932C61491A0DB0098216A /* src */,
+				CF2C88461CD25FB50008F927 /* Source */,
+				CF2C88551CD26B330008F927 /* tools */,
+				42C932F21491A53E0098216A /* res */,
 				42C932BF1491A0DB0098216A /* Frameworks */,
 				42C932BD1491A0DB0098216A /* Products */,
 			);
@@ -163,8 +168,7 @@
 		42C932C61491A0DB0098216A /* src */ = {
 			isa = PBXGroup;
 			children = (
-				42C932EF1491A5160098216A /* Main.cpp */,
-				42C932F01491A5160098216A /* Main.h */,
+				CF2C88521CD269F90008F927 /* HelloTriangleScene.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -306,6 +310,7 @@
 				42C932EE1491A4CB0098216A /* icon.png in Resources */,
 				428F7BDE15CB131A009ED24C /* game.config in Resources */,
 				42C932F31491A53E0098216A /* res in Resources */,
+				CF2C88471CD25FB50008F927 /* Source in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +321,7 @@
 				5B61612614CCC24C0073B857 /* icon.png in Resources */,
 				5B61612714CCC24C0073B857 /* res in Resources */,
 				42049B7D16ADBCDB005DD1F9 /* Default-568h@2x.png in Resources */,
+				CF2C88481CD25FB50008F927 /* Source in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42C932F11491A5160098216A /* Main.cpp in Sources */,
+				CF2C88531CD269F90008F927 /* HelloTriangleScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B61611614CCC24C0073B857 /* Main.cpp in Sources */,
+				CF2C88541CD269F90008F927 /* HelloTriangleScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
